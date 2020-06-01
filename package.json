@@ -1,28 +1,28 @@
 {
-  "name": "saturn-studios-site",
+  "name": "saturn-studios",
+  "private": true,
   "version": "1.0.0",
-  "description": "The old official Saturn Studios website",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open firefox",
+    "start": "parcel index.html --open firefox developer edition",
     "build": "parcel build index.html --out-dir ./public"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/saturnstudios/saturnstudios.gitlab.io.git"
+    "url": "git+https://github.com/Hexsphere/saturn-studios-web.git"
   },
-  "author": "Saturn Studios Dev Team",
+  "author": "Saturn Studios Web Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/saturnstudios/saturnstudios.gitlab.io/issues"
+    "url": "https://github.com/Hexsphere/saturn-studios-web/issues"
   },
-  "homepage": "https://gitlab.com/saturnstudios/saturnstudios.gitlab.io#readme",
-  "devDependencies": {
-    "autoprefixer": "^9.6.1",
-    "cssnano": "^4.1.10",
-    "sass": "^1.22.7"
-  },
+  "homepage": "https://github.com/Hexsphere/saturn-studios-web#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.3"
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-compress": "^2.0.2",
+    "sass": "^1.26.7"
   }
 }
