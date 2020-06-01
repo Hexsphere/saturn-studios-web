@@ -1,0 +1,28 @@
+{
+  "name": "saturn-studios-site",
+  "version": "1.0.0",
+  "description": "The old official Saturn Studios website",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open firefox",
+    "build": "parcel build index.html --out-dir ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/saturnstudios/saturnstudios.gitlab.io.git"
+  },
+  "author": "Saturn Studios Dev Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/saturnstudios/saturnstudios.gitlab.io/issues"
+  },
+  "homepage": "https://gitlab.com/saturnstudios/saturnstudios.gitlab.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "sass": "^1.22.7"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
